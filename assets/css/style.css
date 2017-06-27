@@ -1,0 +1,187 @@
+/*
+
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+
+*/
+
+body {
+    margin: 0;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: url("../images/concrete-texture.png");
+}
+
+header {
+    font-family: "Times New Roman", Georgia, Serif;    
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background: #ffffff;
+    margin-bottom: 40px;
+    border-bottom: groove;
+    margin-top: 10px;
+
+}
+
+h1 {
+    padding: 15px 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #4aaaa5;
+    text-align: left;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #DCDCDC;
+}
+
+h2 {
+    padding: 15px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #4aaaa5;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #DCDCDC;
+}
+
+p {
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color:#777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+  background: #666666;
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  bottom: 0;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-top: solid;
+  border-width: 8px;
+  border-color: #4aaaa5;
+}
+
+.name {
+    height: 50px;
+    width: 240px;
+    padding-top: 50px;
+    background: #4aaaa5;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+}
+
+.image {
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.navigation {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.full {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.AboutMe{
+  vertical-align: top;
+  width: 600px;
+  background: #ffffff;
+  display: inline-block;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.contactme{
+  vertical-align: top;
+  width: 600px;
+  background: #ffffff;
+  display: inline-block;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.connect {
+  vertical-align: top;
+  position: relative;
+  width: 270px;
+  height: 200px;
+  background: #fff;
+  display: inline-block;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.github {
+  margin-right: 10px;
+  margin-left: 5px;
+  height: 64px;
+  text-decoration: none;
+}
+
+.linkedin {
+  height: 64px;
+  text-decoration: none;
+}
+
+.stackoverflow {
+  height: 64px;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  width: 545px;
+  color: #777777;
+  font-size: 16px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: justify;
+}
+
+input[type=submit] {
+  height: 42px;
+  width: 114px;
+  background: #4aaaa5;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+textarea {
+  padding: 12px 20px;
+  width: 545px;
+  color: #777777;
+  font-size: 16px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: justify;
+}
